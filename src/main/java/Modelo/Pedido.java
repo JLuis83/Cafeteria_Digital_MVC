@@ -3,6 +3,11 @@ package Modelo;
 
 import java.util.ArrayList;
 
+/**
+ *   Pedido realizado por un cliente.
+ * Contiene el nombre del cliente y la lista de productos.
+ */
+
 public class Pedido {
 
     private final String cliente;

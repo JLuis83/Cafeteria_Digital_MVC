@@ -2,6 +2,10 @@ package Modelo;
 
 import java.time.LocalDate;
 
+/**
+ * Proceso para un pago realizado con tarjeta.
+ */
+
 public class Pagar {
 
     private double importe;

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"CafeteriaDig"},{"l":"Logica"},{"l":"Modelo"},{"l":"Utils"},{"l":"Vista"}];updateSearchResults();

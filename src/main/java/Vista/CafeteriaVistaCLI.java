@@ -1,7 +1,6 @@
 package Vista;
-import Modelo.Pagar;
 import Modelo.Producto;
-import Lógica.Cafeteria;
+import Logica.Cafeteria;
 import Utils.InputReader;
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package CafeteriaDig;
 
-import Lógica.Cafeteria;
+import Logica.Cafeteria;
 import Vista.CafeteriaVistaCLI;
 
 public class Main {

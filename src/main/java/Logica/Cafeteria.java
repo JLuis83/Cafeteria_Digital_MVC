@@ -1,4 +1,4 @@
-package Lógica;
+package Logica;
 import Modelo.Pagar;
 import Modelo.Producto;
 import Vista.CustomCLI;
@@ -8,6 +8,16 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.*;
 
 import static Utils.InputReader.sc;
+
+/**
+ * Clase que gestiona la lógica de negocio de la Cafetería.
+ * Contiene el menú, los pedidos y la gestión de pagos.
+ *
+ *
+ * @author Jose
+ * @version 1.0
+ * @since 2025
+ */
 
 public class Cafeteria {
     //Para establecer la fecha en las operaciones que se realizan  en el software
@@ -40,6 +50,11 @@ public class Cafeteria {
 
         cargarProductos();
     }
+
+    /**
+     * Carga los productos iniciales en el menú desordenado
+     * y los copia al menú ordenado.
+     */
 
     public void cargarProductos() {
 
@@ -110,6 +125,13 @@ public class Cafeteria {
         return pedidosCola;
     }
 
+    /**
+     * Busca un producto en el menú por su nombre.
+     *
+     * @param entrada nombre del producto introducido por el usuario
+     * @return objeto Producto si existe, null si no existe
+     */
+
     public Producto buscarProductoMenu(String entrada) {
 
         if (productosDesordenados.containsKey(entrada)) {
@@ -120,8 +142,8 @@ public class Cafeteria {
     }
 
     /*
-     Atender siguiente pedido
-     */
+     Atiende el  siguiente pedido en la cola
+      */
     public String pedidosAtendidos() {
 
         if (!pedidosCola.isEmpty()) {
